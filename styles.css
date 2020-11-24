@@ -1,0 +1,64 @@
+body {
+  background-color:rgb(39, 39, 46);
+  color:rgb(164, 168, 218);
+}
+
+button {
+  background-color: rgb(133, 138, 196);
+  border: none;
+  border-radius: 30px 0px 30px 0px;
+  box-shadow: 0 9px rgb(164, 168, 218);
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+}
+button:hover {
+  background-color: rgb(97, 115, 148);
+  box-shadow: 0 9px rgb(174, 220, 231);
+  color:rgb(127, 255, 212);
+}
+button:active {
+  box-shadow: 0 5px rgb(157, 194, 206);
+  transform: translateY(4px);
+}
+
+div {
+  display:inline-block;
+  margin:auto;
+}
+
+#name {
+  display: inline;
+}
+
+#welcome {
+  display: inline;
+}
+
+#dateLine {
+  display: inline;
+}
+
+#monthDay {
+  display: inline;
+}
+//use system date to establish a baseline date, +1 year
+//use baseline to count how many days played
+
+#exit {
+  color: aquamarine;
+}
+#exit:hover {
+  background-color:rgb(143, 38, 38);
+  color:rgb(255, 20, 20);
+  }
+#exit:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
